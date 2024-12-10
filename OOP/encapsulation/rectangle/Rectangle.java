@@ -5,11 +5,13 @@ public class Rectangle {
     private double length;
     private double breadth;
 
-    Rectangle(double len, double bre) {
-        length = len;
-        breadth = bre;
+    public void setLength(double l) {
+        length = l;
+    }
 
-    };
+    public void setBreadth(double b) {
+        breadth = b;
+    }
 
     public double area() {
         return length * breadth;
@@ -20,7 +22,10 @@ public class Rectangle {
     }
 
     public static void main(String[] args) {
-        Rectangle rectangleOne = new Rectangle(10, 15);
+        Rectangle rectangleOne = new Rectangle();
+
+        rectangleOne.setLength(13);
+        rectangleOne.setBreadth(25);
 
         System.out.println("Area of rectangle is : " + rectangleOne.area());
         System.out.println("Perimeter of rectange is : " + rectangleOne.perimeter());
