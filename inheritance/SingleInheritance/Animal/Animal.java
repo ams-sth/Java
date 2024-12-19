@@ -1,3 +1,4 @@
+package inheritance.SingleInheritance.Animal;
 public class Animal {
 
     String sound;
