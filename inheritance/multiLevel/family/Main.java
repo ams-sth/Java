@@ -5,4 +5,4 @@ public class Main {
         headteacher.teach();
         headteacher.lead();
     }
-};
+}

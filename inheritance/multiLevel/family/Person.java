@@ -18,4 +18,4 @@ public class Person {
     public void introduce(){
         System.out.println(" Hi, I'm " + getName() + " and I am " + getAge() + " years old.");
     }
-};
+}
