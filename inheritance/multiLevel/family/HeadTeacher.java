@@ -17,5 +17,6 @@ public class HeadTeacher extends Teacher {
     
     @Override
     public void introduce(){
-        System.out.println("Hello, I'm " + getName() + ", " + " Head of " + getDepartment() + ", and I teach " + getSubject() + ".");    }
+        System.out.println("Hello, I'm " + getName() + ", " + " Head of " + getDepartment() + ", and I teach " + getSubject() + ".");    
+    }
 }
