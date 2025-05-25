@@ -17,7 +17,8 @@ public class AddingElements {
 }
 
 /*
-        int [] arr = new int[2]; declares the size of an array.
-        It indicates the amount of elements that can fit inside array.
-        arr[0] and arr[1] indicates first and second indexes of array.
+Note:
+    int [] arr = new int[2]; declares the size of an array.
+    It indicates the amount of elements that can fit inside array.
+    arr[0] and arr[1] indicates first and second indexes of array.
 */
