@@ -1,4 +1,5 @@
-package pillarsofoop.encapsulation.studentDetails;
+package pillarsofoop.encapsulation;
+
 
 public class Student {
 

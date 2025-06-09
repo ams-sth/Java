@@ -1,4 +1,4 @@
-package pillarsofoop.encapsulation.rectangle;
+package pillarsofoop.encapsulation;
 
 public class Rectangle {
 
